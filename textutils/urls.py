@@ -20,5 +20,5 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="Index"),
-    path('capitalise/' views.capitalise, name="Index")
+    path('capitalise/', views.capitalise, name="Index")
 ]
